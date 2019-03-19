@@ -6,7 +6,7 @@ from ProjectViemed.POMProject.Pages.homePage import Homepage
 
 
 class LoginTest(unittest.TestCase):
-
+    # execute the webdriver browser
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(executable_path='C:/Users/emaramar/PycharmProjects/Edjel/drivers/chromedriver.exe')
